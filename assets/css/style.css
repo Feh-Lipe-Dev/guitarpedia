@@ -36,6 +36,8 @@ a { color:blue; text-decoration: none;}
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    text-align: end;
+    padding-right: 6%;
 }
 p {
     text-align: justify;
@@ -76,17 +78,33 @@ header {
 }
 .title {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 220px 0 0 100px;
 }
-.pixelsBox {
+.nav-link {
+    display: block;
+    margin-left: 1em;
+}
+.src, span > a:link {
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+.sub-title {
     display: flex;
 }
-.pixels {
-    display: flex;
-    margin: -25px 10px;
+#pixels {
     width: 40px;
-    height: 40px;
-    border: solid 1px black;
-    border-radius: 3px;
-    align-items:start;
+    margin: -10px 0 -10px -20px;
+}
+#pixels2 {
+    width: 80px;
+    height: 50px;
+    margin: 10px 0 -10px -50px;
+}
+#pixels3 {
+    width: 80px;
+    height: 50px;
+    margin: -10px 0 -10px -30px;
 }

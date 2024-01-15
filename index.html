@@ -10,18 +10,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body style="background-color: #fffafa;">
     <header id="header">
         <div class="mainHeader">
             <h1 class="title">
-                GuitarPedia
-                    <figure class="pixelsBox">
-                    <img class="pixels" src="assets/images/classic_G.png" alt="violão clássico pixelado">
-                    <img class="pixels" src="assets/images/play_classic_G.jpeg" alt="violonista clássico pixelado">
-                    <img class="pixels"src="assets/images/electric_G.png" alt="guitarra elétrica pixelada">
-                    <img class="pixels" src="assets/images/play_electric_G.png" alt="tocando guitarra elétrica pixelada">
-                    </figure>
-                Enciclopédia Virtual das Guitarras
+                GuitarPedia | Sua Enciclopédia Virtual Sobre Guitarras
             </h1>
         </div>
     </header>
@@ -30,14 +23,39 @@
 
     <div class="content">
         <nav class="sidebar">
-            <h2>Tudo sobre Guitarra</h2>
+            <h2>Conteúdos</h2>
             <ul>
-                <li><a href="#">Guitarra</a></li>
+                <li class="nav-link"><a href="index.html">Guitarra: definição e origem</a></li>
+                <li class="nav-link"><a href="guitarsFamily.html">Família das Guitarras</a></li>
+                <li class="nav-link"><a href="#">Partes da guitarra</a></li>
             </ul>
+            <figure class="guitarsBox">
+                <img class="guitars" src="assets/images/banjo.jpeg" title="Banjo Americano"
+                    alt="imagem de um Banjo Americano">
+                <figcaption>Banjo Americano</figcaption>
+            </figure>
+            <figure class="guitarsBox">
+                <img class="guitars" src="assets/images/bandolim.jpeg" title="Bandolim"
+                    alt="imagem de um Bandolim">
+                <figcaption>Bandolim</figcaption>
+            </figure>
+            <figure class="guitarsBox">
+                <img class="guitars" src="assets/images/balalaica.jpeg" title="Balalaica"
+                    alt="imagem de uma Balalaica">
+                <figcaption>Balalaica</figcaption>
+            </figure>
+            <figure class="guitarsBox">
+                <img class="guitars" src="assets/images/guita_portuguesa.jpeg" title="Guitarra Portuguesa"
+                    alt="imagem de uma Guitarra Portuguesa">
+                <figcaption>Guitarra Portuguesa</figcaption>
+            </figure>
         </nav>
 
         <main class="main">
-            <h2 id="guitarra">Guitarra</h2>
+            <div class="sub-title">
+                <h2 id="guitarra">Guitarra: definição e origem</h2>
+                <figure><img id="pixels" src="assets/images/classic_G.png" alt="violão clássico pixelado"></figure>
+            </div>
             <p>
                 Guitarra (do árabe <i>"qitara"</i>; derivado do latim <i>"cithara"</i> e do grego <i>"kithára"</i>)
                 refere-se a uma série de instrumentos de cordas dedilhadas, ou instrumentos cordofones que possuem braço
@@ -51,8 +69,13 @@
                 As guitarras, bem como a maior parte dos instrumentos de cordas, são construídas por um luthier. O
                 musicista que a executa é chamado <b><i>guitarrista.</i></b>
             </p>
-            <a href="#header" class="top">Voltar ao topo</a>
-            <h2 id="historia">História</h2>
+            <a href="#header" class="top">Voltar ao topo</a><br>
+            <span class="src">Fonte: <a href="https://pt.wikipedia.org/wiki/Guitarra">wikipedia.org/wiki/Guitarra</a></span>
+
+            <div class="sub-title">
+                <h2 id="historia">História</h2>
+                <figure></figure><img id="pixels2" src="assets/images/play_classic_G.jpeg" alt="violonista clássico pixelado"></figure>
+            </div>
             <p>
                 Instrumentos similares aos que hoje chamamos de guitarras existem ao menos há 5 mil anos.
                 Existem três hipóteses sobre a origem da guitarra como a conhecemos hoje.
@@ -80,8 +103,13 @@
                 fato de em espanhol ter havido a distinção entre vihuela de arco (viola tocada com um arco) e vihuela de
                 mano (viola tocada com a mão).
             </p>
-            <a href="#header" class="top">Voltar ao topo</a>
-            <h2 id="violaoOuGuitarra">Violão ou Guitarra?</h2>
+            <a href="#header" class="top">Voltar ao topo</a><br>
+            <span class="src">Fonte: <a href="https://pt.wikipedia.org/wiki/Guitarra">wikipedia.org/wiki/Guitarra</a></span>
+
+            <div class="sub-title">
+                <h2 id="violaoOuGuitarra">Violão ou Guitarra?</h2>
+                <figure><img id="pixels"src="assets/images/electric_G.png" alt="guitarra elétrica pixelada"></figure>
+            </div>
             <p>
                 Na maior parte dos países de língua portuguesa, o termo guitarra pode se referir a qualquer das
                 variedades do instrumento, seja elétrica ou acústica. No Brasil e em Cabo Verde existe a designação
@@ -93,8 +121,13 @@
                 século XX o nome guitarra retornou ao vocabulário corrente dos brasileiros, mas apenas para designar a
                 <i>versão eletrificada.</i>
             </p>
-            <a href="#header" class="top">Voltar ao topo</a>
-            <h2 id="noBrasil">Uso no Brasil</h2>
+            <a href="#header" class="top">Voltar ao topo</a><br>
+            <span class="src">Fonte: <a href="https://pt.wikipedia.org/wiki/Guitarra">wikipedia.org/wiki/Guitarra</a></span>
+
+            <div class="sub-title">
+                <h2 id="noBrasil">Uso no Brasil</h2>
+                <figure><img id="pixels3" src="assets/images/play_electric_G.png" alt="tocando guitarra elétrica pixelada"></figure>
+            </div>
             <p>
                 No Brasil, o termo guitarra refere-se exclusivamente à guitarra elétrica e a palavra "violão" é usada
                 para se referir tanto à guitarra clássica, como à guitarra acústica, esta segunda com cordas de 'nylon'
@@ -103,7 +136,8 @@
                 de nylon são preferidos pela maioria dos violonistas clássicos e adeptos do choro, do samba, da bossa
                 nova, do MPB,do axe e estilos musicais regionais.
             </p>
-            <a href="#header" class="top">Voltar ao topo</a>
+            <a href="#header" class="top">Voltar ao topo</a><br>
+            <span class="src">Fonte: <a href="https://pt.wikipedia.org/wiki/Guitarra">wikipedia.org/wiki/Guitarra</a></span>
         </main>
 
         <aside class="anchors">
@@ -139,6 +173,11 @@
                 <img class="guitars" src="assets/images/guitarra_classica.jpg" title="Guitarra Clássica"
                     alt="imagem de uma Guitarra Clássica">
                 <figcaption>Guitarra Clássica</figcaption>
+            </figure>
+            <figure class="guitarsBox">
+                <img class="guitars" src="assets/images/electricG_semiAc.jpeg" title="Guitarra Elétrica"
+                    alt="imagem de uma Guitarra Elétrica">
+                <figcaption>Guitarra Elétrica</figcaption>
             </figure>
         </aside>
     </div>
