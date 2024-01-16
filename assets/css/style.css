@@ -86,9 +86,12 @@ header {
     display: block;
     margin-left: 1em;
 }
-.src, span > a:link {
+.src {
     font-size: 12px;
     text-decoration: underline;
+    color: black;
+}
+span > a {
     color: black;
 }
 .sub-title {
@@ -107,4 +110,16 @@ header {
     width: 80px;
     height: 50px;
     margin: -10px 0 -10px -30px;
+}
+#anatomia {
+    display: flex;
+}
+.anatomia {
+    width: 50vw;
+    height: 100vh;
+    margin-left: -3rem;
+}
+.anatomia-eg {
+    width: 52vw;
+    margin-left: -3rem;
 }
