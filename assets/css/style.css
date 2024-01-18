@@ -29,15 +29,18 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
     font-size: 16px;
     font-weight: bold;
+    background-color: #fefefd;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    background-color: #fefefd;
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
     text-align: end;
     padding-right: 6%;
+    background-color: #fefefd;
 }
 p {
     text-align: justify;
@@ -111,6 +114,10 @@ span > a {
     height: 50px;
     margin: -10px 0 -10px -30px;
 }
+#pixels4 {
+    width: 180px;
+    margin: -10px 0 -10px -30px;
+}
 #anatomia {
     display: flex;
 }
@@ -122,4 +129,23 @@ span > a {
 .anatomia-eg {
     width: 52vw;
     margin-left: -3rem;
+}
+[href]:hover {
+    text-decoration: underline;
+    color: blue;
+}
+figcaption {
+    font-size: 14px;
+    font-style: oblique;
+    margin-top: 6px;
+    margin-left: -16px;
+}
+.icons {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 5px 12px 0 7px;
+}
+footer > p {
+    padding: 0 6px;
 }
